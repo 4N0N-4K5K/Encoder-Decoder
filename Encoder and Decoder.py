@@ -1,7 +1,7 @@
 import base64
 import time
 import webbrowser
-import os
+
 while True:
     print("\tMAIN MENU")
     print("\t_________")
@@ -40,9 +40,7 @@ while True:
         res = ''.join(format(ord(i), '08b') for i in a)
         print("The string after binary conversion : " + str(res))
     elif ch==6:
-        def OpenLink(link):
-            os.system("termux-open-url \"https://codebeautify.org/binary-to-text")
-       
+        w3m https://codebeautify.org/binary-to-text
     elif ch==7:
         print("Thank You For Using This Tool")
         time.sleep(1)

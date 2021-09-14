@@ -42,7 +42,7 @@ while True:
     elif ch==6:
         webbrowser.open('https://codebeautify.org/binary-to-text')
         def OpenLink(link):
-            os.system("termux-open-url \""+codebeautify.org/binary-to-text+"\"")
+            os.system("termux-open-url \""+"https://codebeautify.org/binary-to-text"+"\"")
     elif ch==7:
         print("Thank You For Using This Tool")
         time.sleep(1)

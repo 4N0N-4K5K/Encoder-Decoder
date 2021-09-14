@@ -40,7 +40,7 @@ while True:
         res = ''.join(format(ord(i), '08b') for i in a)
         print("The string after binary conversion : " + str(res))
     elif ch==6:
-        webbrowser.open('https://codebeautify.org/binary-to-text',new=1)
+       webbrowser.register("termux-open 'https://codebeautify.org/binary-to-text'", None)
 
     elif ch==7:
         print("Thank You For Using This Tool")
